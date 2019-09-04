@@ -1,0 +1,44 @@
+.card-image img{
+	max-width: 15em;
+}
+
+.post-content p{
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+}
+
+.post-content{
+	text-align: center;
+}
+
+.rowCard{
+	display: flex;
+	width: 80%;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 7em;
+    font-family: verdana;
+    color: #545454;
+    background-color: #e8e8e8;
+    padding: 1em;
+	
+}
+
+
+.rowCard:hover{
+    background-color: #c3c3c3;
+	
+}
+
+@media screen and (max-width: 720px){
+	
+	.rowCard{
+		display: grid;
+	}
+	
+	.card-image {
+		text-align: center;
+	}
+	
+}

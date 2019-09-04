@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.regDiv {
+	margin: 100px auto;
+	border: 1px solid lightgrey;
+	display: table;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+form {
+	text-align: center;
+	padding: 1em;
+}
+
+.el_ins {
+	margin: 100 auto;
+	display: table;
+	margin-top: 1px;
+	width: 100%;
+	text-align: center;
+	height: 30px;
+}
+
+.button {
+    width: 100px;
+    border: none;
+    outline: 0;
+    color: white;
+    background-color: #9BD770;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.button:hover{
+	background-color:#1B3409;
+}
+
+.label {
+	display: inline-block;
+	float: left;
+	font-family: arial;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+p {
+	text-color: red;
+}
+

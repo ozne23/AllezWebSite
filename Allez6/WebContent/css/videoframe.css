@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+
+
+#video-container{
+	position: relative;
+	margin: 0 auto;	
+}
+ #video-frame{
+ 	
+ 	max-width: 300%;
+  	max-height: 300%;
+ 	position: relative;
+ 	width: 60%;
+ 	height: auto;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	z-index: 0;
+ }

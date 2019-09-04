@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+
+#fattura{
+	margin: 0 auto;
+    display: table;
+    max-width: 980px;
+    background-color: white;
+    margin-top: 3em;
+    margin-bottom: 3em;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#anagrafica{
+	margin: 0 auto;
+    display:grid;
+    max-width: 980px;
+    background-color: white;
+    margin-top: 3em;
+    margin-bottom: 3em;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+#anagrafica table tr td:first-child{
+	font-weight: bold;
+}
+
+.UtenteButton{
+	margin: 0 auto;
+    background-color: #9bd670;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5em;
+    border: none;
+    display: table;
+    margin-bottom: 2em;
+}
+
+#prodotti td img{
+	
+	width: 8em;
+}
+
+#prodotti td {
+	text-align: center;
+	width: 10em;
+}
+
+   
+    
+#prodotti input{
+	 max-width: 4em;
+}
+
+#prodotti th{
+	padding: 1em;
+}
+
+#prodotti tr td {
+	border-top: 2px solid #f1f1f1;
+}
+
+#prodotti{
+	
+	border-collapse: collapse;
+	border-bottom: 2px solid #f1f1f1;
+	margin-bottom: 1em;
+}
+
+@media screen and (max-width: 767px){
+	
+	#prodotti td {
+	display: block;
+    position: relative;
+	width: 30em;
+    margin-bottom: 1em;
+	}
+	
+	#prodotti td:before {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    content: attr(data-title);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 40%;
+    line-height: 1.42857143;
+    text-align: right;
+    font-weight: 700;
+	}
+	
+	#prodotti tr td {
+	border-top: none;
+}
+
+#prodotti th{
+	display:none;
+}
+
+
+}
+
+
+	
+}
+
+  

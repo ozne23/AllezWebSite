@@ -1,0 +1,8 @@
+.icons-img {
+	border-radius: 25px;
+	border: 2px solid #e8e8e8;
+}
+
+.icons-img:hover {
+	border: 2px solid #c3c3c3;
+}

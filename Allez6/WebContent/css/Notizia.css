@@ -1,0 +1,42 @@
+#notizia{
+	width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+        padding: 1em;
+        margin-top: 3em;
+}
+
+#notizia img{
+	    width: 15em;
+	    
+}
+
+#notizia img{
+	    width: 15em;
+	    
+}
+
+#notizia a {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #9BD770;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 50px;
+ 
+}
+
+#notizia a:hover {
+  opacity: 0.7;
+}
+
+#notizia h1{
+	        font-size: 3em;
+}
+
+.clearfix { display: inline-block; }

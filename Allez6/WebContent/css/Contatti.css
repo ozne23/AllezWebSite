@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#google-position{
+	    width: 100%;
+}
+#contact-div{
+	margin: auto;
+	display: table;
+}
+
+#googleContainer{
+	
+	    width: 80%;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#contact-div address{
+	    background-color: white;
+    padding: 4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

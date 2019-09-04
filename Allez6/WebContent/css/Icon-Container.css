@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.icon-container {
+	max-width:100%;
+	margin: 0%;
+	padding: 0%;
+	height: auto;
+	width:auto;
+	overflow:scroll;
+	background-color: #f1f1f1;
+	margin-top: 2em;
+	
+}
+.icons-img{
+	width:20em;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.iconButton:hover {
+	background-color: #f1f1f1;
+}
+
+.iconButton{
+	margin: 1em;
+    border: none;
+        background-color: #f1f1f1;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 800px){
+	
+		.row {
+		  display: grid;
+		  grid-template-columns: repeat(2, 1fr);
+		  
+		}
+		
+		.icons-img{
+			width: 70%;
+		}
+		
+	/*	.column {
+   width: 20em;
+		} */
+
+	
+}
+  
+  

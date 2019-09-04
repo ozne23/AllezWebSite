@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+#commentiFalesia{
+	
+	display: none;
+	
+	background-color: white;
+    max-width: 30em;
+    margin: 0 auto;
+    padding: 0.6em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#commento{
+	
+	border-bottom: 2px solid #f1f1f1;
+}
+
+#lasciaCommento{
+	width: fit-content;
+    margin: 0 auto;
+    display:table;
+}
+
+textArea{
+	resize: none;
+	margin-top: 3em;
+	
+}
+	
+.falesiaButton{
+	margin: 0 auto;
+    background-color: #9bd670;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.5em;
+    border: none;
+    display: table;
+    margin-bottom: 2em;
+}
+
+.card-image img{
+	max-width: 15em;
+}
+
+#vaiMappa{
+	margin: 0 auto;
+    background-color: #9bd670;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.3em;
+    border: none;
+    display: table;
+    margin-bottom: 2em;
+    text-decoration: none;
+    padding: 0.2em;
+}
+
+.post-content p{
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+}
+
+.post-content{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.rowCard{
+	display: flex;
+	width: 80%;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 7em;
+    font-family: verdana;
+    color: #545454;
+    background-color: #e8e8e8;
+    padding: 1em;
+	
+}
+
+
+.rowCard:hover{
+    background-color: #c3c3c3;
+	
+}
+
+@media screen and (max-width: 720px){
+	
+	.rowCard{
+		display: grid;
+	}
+	
+	.card-image {
+		text-align: center;
+	}
+	
+}
+footer{
+	clear:both;
+}

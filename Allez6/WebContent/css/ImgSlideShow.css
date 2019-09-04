@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.mySlides{
+	max-width: 500%;
+  	max-height: 500%;
+ 	position: relative;
+ 	width: 100%;
+ 	height: auto;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	z-index: 0;
+}
+
+.display-right{
+	position: absolute;
+	right: 0%;
+	transform: translate(0%,-50%);
+}
+
+.display-left{
+	position: absolute;
+	left: 0%;
+	transform: translate(0%,-50%);
+}
+
+
+.buttonSlide{
+  border:none;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  background-color: rgba(255,255,255,0);
+  color: rgba(255,255,255,0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  height: 100%;
+  width: 20%;
+}
+
+button:hover {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+
+.container{
+	position: relative;
+	margin: 0 auto;
+	/*max-width: 980px;*/
+	background-color : #9BD770;;
+	
+}
+
